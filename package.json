@@ -1,0 +1,23 @@
+{
+  "name": "material-flux-mediator-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"browserify lib/main.js -t babelify --outfile bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flux"
+  ],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "material-flux": "^1.1.1",
+    "react": "^0.13.0"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3"
+  }
+}

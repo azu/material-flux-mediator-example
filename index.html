@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mediator: material-flulx</title>
+  <style>
+  #header {
+    width: 80%;
+  }
+  #header .menu{
+      padding: 5px;
+      border: 1px solid silver;
+      border-radius: 3px;
+      width: 150px;
+      float: left;
+  }
+
+  .menu.active{
+      background-color: seagreen;
+      color: white;
+  }
+
+  #content{
+      height: 80px;
+  }
+  </style>
+</head>
+<body>
+
+  <div id="header">
+  </div>
+  <br style="clear:both;margin:10px"/>
+  <hr/>
+  <div>
+      <h4>Menu List</h4>
+      <div id="content"></div>
+  </div>
+  <hr/>
+  <div id="pager"></div>
+
+  <script src="bundle.js"></script>
+</body>
