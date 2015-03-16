@@ -1,4 +1,4 @@
-# Project Name
+# material-flux-mediator-example
 
 [JavaScript - React.js 実戦投入への道 - Qiita](http://qiita.com/icoxfog417/items/5d79b3336226aa51e30d "JavaScript - React.js 実戦投入への道 - Qiita")を
 [material-flux](https://github.com/azu/material-flux "azu/material-flux")でやったもの
@@ -10,11 +10,8 @@
 
 ## Usage
 
-Open 
+Open http://azu.github.io/material-flux-mediator-example
 
-## Tests
-
-- [ ] Write How to Tests
 
 ## Contributing
 
